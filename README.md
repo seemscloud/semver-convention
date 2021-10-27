@@ -21,7 +21,6 @@
 | style        | style: Kerberos method spacing               |
 | docs         | docs: added Kerberos auth documentation      |
 | build/vendor | build: updated Kerberos dependency           |
-|              |                                              |
 | perf         | perf: increase auth via Kerberos performance |
 | test         | test: add test for Kerberos auth             |
 | refactor     | refactor: renamed varaibles in Kerberos auth |
