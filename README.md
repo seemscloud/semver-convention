@@ -1,5 +1,7 @@
 # SemVer Convention
 
+![Branch Flow](semver-branches.png)
+
 ## Branches
 
 | Branch     | From Branch    | To Branch         | Details                      |
