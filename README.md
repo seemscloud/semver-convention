@@ -1,20 +1,10 @@
 # SemVer Convention
 
-![Branch Flow](./draw.io/diagram.png)
-
 ## Branches
 
 ### With Additional Production Branch
 
-| Branch     | From Branch    | To Branch         | Details                      |
-|------------|----------------|-------------------|------------------------------|
-| production | master         |        ---        | Production Branch            |
-| hotfix     | production     | production/master | Hotfix for Production Branch |
-| master     | hotfix/release | production        | Master Branch                |
-| release    | develop        | master            | New Candidate to Release     |
-| develop    | master         | feature/bugfix    | Develop Branch               |
-| feature    | develop        | develop           | Featre Branch                |
-| bugfix     | develop        | develop           | Bugfix Bramch                |
+![Branch Flow](./draw.io/diagram.png)
 
 ## Commits
 
