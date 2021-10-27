@@ -6,15 +6,16 @@
 
 ![Branch Flow](./draw.io/diagram.png)
 
-| Branch     | From Branch    | To Branch              | Details                      |
-|------------|----------------|------------------------|------------------------------|
-| production | master         | hot fix                | Production Branch            |
-| hotfix     | production     | production/master      | Hotfix for Production Branch |
-| master     | hotfix/release | production/develop     | Master Branch                |
-| release    | develop        | master                 | New Candidate to Release     |
-| develop    | master         | feature/bugfix/release | Develop Branch               |
-| feature    | develop        | develop                | Featre Branch                |
-| bugfix     | develop        | develop                | Bugfix Bramch                |
+| Branch     | From Branch    | To Branch              | Details                                 |
+|------------|----------------|------------------------|-----------------------------------------|
+| production | master         | hot fix                | Optional for CD (if multiple customers) |
+| hotfix     | production     | production/master      | Hotfix for production <br> `With production branch` |
+| hotfix     | master         | master/develop         | Hotfix for master <br> `Without production branch` |
+| master     | hotfix/release | production/develop     | Core branch                             |
+| release    | develop        | master                 | Release                                 |
+| develop    | master         | feature/bugfix/release | Development (promotion to release)      |
+| feature    | develop        | develop                | New feature                             |
+| bugfix     | develop        | develop                | Bug fix                                 |
 
 ## Commits
 
