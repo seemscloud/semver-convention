@@ -1,6 +1,6 @@
 # SemVer Convention
 
-![Branch Flow](semver-branches.drawio.png)
+![Branch Flow](./draw.io/diagram.png)
 
 ## Branches
 
