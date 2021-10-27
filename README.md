@@ -17,9 +17,7 @@
 | feature    | develop        | develop                | New feature                             |
 | bugfix     | develop        | develop                | Bug fix                                 |
 
-### Details 
-
-Production, master branch:
+### Production, master branch:
  - with production branch for multiple for multiple clients
  - without production, master branch as production
  
