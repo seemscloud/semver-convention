@@ -6,6 +6,16 @@
 
 ![Branch Flow](./draw.io/diagram.png)
 
+| Branch     | From Branch    | To Branch              | Details                      |
+|------------|----------------|------------------------|------------------------------|
+| production | master         | hot fix                | Production Branch            |
+| hotfix     | production     | production/master      | Hotfix for Production Branch |
+| master     | hotfix/release | production/develop     | Master Branch                |
+| release    | develop        | master                 | New Candidate to Release     |
+| develop    | master         | feature/bugfix/release | Develop Branch               |
+| feature    | develop        | develop                | Featre Branch                |
+| bugfix     | develop        | develop                | Bugfix Bramch                |
+
 ## Commits
 
 | Prefix       | Message                                      |
