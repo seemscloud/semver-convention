@@ -2,7 +2,7 @@
 
 ## Branches
 
-| Branch     | From           | To Branch         | Details                      |
+| Branch     | From Branch    | To Branch         | Details                      |
 |------------|----------------|-------------------|------------------------------|
 | production | master         |        ---        | Production Branch            |
 | hotfix     | production     | production/master | Hotfix for Production Branch |
@@ -14,7 +14,7 @@
 
 ## Commits
 
-| Prefix       | Example                                      |
+| Prefix       | Message                                      |
 |--------------|----------------------------------------------|
 | feat         | feat: add Kerberos auth to database          |
 | fix          | fix: problem auth via Kerberos               |
